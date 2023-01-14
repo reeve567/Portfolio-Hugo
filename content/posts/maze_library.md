@@ -1,12 +1,12 @@
 +++
 title = "Maze Library"
-date = "2023-01-13T20:30:04-05:00"
+date = "2021-12-05T00:00:00-05:00"
 author = "Reeve"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["coding-project", "kotlin", "library"]
 keywords = ["library", "mazes"]
-description = ""
+description = "A library for generating perfect mazes with different algorithms"
 showFullContent = false
 readingTime = true
 hideComments = false
@@ -15,13 +15,15 @@ color = "" #color from the theme settings
 
 # MazeLib
 
-MazeLib is a library I had a blast working on, and I'm proud of how it turned out.  Included are several algorithms, and at the moment are all perfect mazes (no detached walls or loops).
+[MazeLib](https://github.com/reeve567/MazeLib) is a library I had a blast working on, and I'm proud of how it turned out.  Included are several algorithms, and at the moment are all perfect mazes (no detached walls or loops).
 As of now, there are four algorithms, and I plan on adding more in the future. These algorithms are all used for generating mazes, and some of them you can also generate solutions for.
 
 - (G_) BinaryTree (North-Eastern bias, y = 0 & x = max - 1)(~25% dead ends)
 - (G_) Sidewinder (Upwarard bias, y = 0)(~25% dead ends)
 - (GS) RecursiveBacktracker (Unbiased, more memory needed [vs HuntAndKill])(~10% dead ends)
 - (G_) HuntAndKill (Unbiased, more time needed [vs RecursiveBacktracker])(~10% dead ends)
+
+A lot of the information needed to make this library was from the book [Mazes for Programmers: Code Your Own Twisty Little Passages](https://www.amazon.com/Mazes-Programmers-Twisty-Little-Passages/dp/1680500554), which is a great book.
 
 A little visual demo is provided in the tests directory (java/dev.reeve.mazelib/GridTest). It uses RecursiveBacktrack by default, but it's trivial to switch to another.
 
