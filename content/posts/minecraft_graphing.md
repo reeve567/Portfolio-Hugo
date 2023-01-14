@@ -5,7 +5,7 @@ author = "Reeve"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["coding-project", "kotlin", "minecraft", "spigot", "plugin"]
-keywords = ["minecraft", "plugin"]
+keywords = ["minecraft", "plugin", "graphing"]
 description = "A minecraft plugin that allows players to graph functions in game."
 showFullContent = false
 readingTime = true
@@ -20,4 +20,6 @@ The version I made available on [Github](https://github.com/reeve567/MinecraftGr
 
 At the moment, it is only set up to be used as a standalone plugin, but it could be possible to make it into a library.  The graph function is set in the `config.json`, and has a default value of `x^2 + y^2`.
 
-{{< 
+{{< figure src="/images/saddleFunction.png" caption="Here's a saddle function (x^2 - y^2 - z = 0) made from the 'suspended' particles. " >}}
+
+{{< figure src="/images/saddleFunction2.png" caption="The same function with redstone particles instead." >}}

@@ -22,9 +22,9 @@ This project has gone through many iterations, but the main two versions are Tor
 ## TornadoFX
 
 This one is a nice library for Kotlin using dependency injection and whatnot, but I struggled to get it to look exactly how I wanted.  This is the first version, and goes by [Organization](https://github.com/reeve567/Organization)
-{{< figure src="/images/tornadoFxOrganization.png" alt="TornadoFX rendition" position="center" caption="TornadoFX rendition" captionPosition="center">}}
+{{< figure src="/images/indie_game_library/tornadoFxOrganization.png" alt="TornadoFX rendition" position="center" caption="TornadoFX rendition" captionPosition="center">}}
 
 ## Dear ImGui
 
 This one isn't really for applications by themselves, rather to apply on top of games and whatnot, but I really like the look of the GUI for it.  This was the second one, which went through a decent amount of changes, and can be found at [ImOrganization](https://github.com/reeve567/ImOrganization)
-{{< figure src="/images/dearImGuiOrganization.png" alt="Dear ImGui rendition" position="center" caption="Dear ImGui rendition" captionPosition="center">}}
+{{< figure src="/images/indie_game_library/dearImGuiOrganization.png" alt="Dear ImGui rendition" position="center" caption="Dear ImGui rendition" captionPosition="center">}}
