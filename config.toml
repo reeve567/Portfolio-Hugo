@@ -15,3 +15,6 @@ autoCover = false
 showLastUpdated = false
 
 [module]
+
+[[module.imports]]
+path = 'github.com/reeve567/hugo-theme-terminal'
