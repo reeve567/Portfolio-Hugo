@@ -1,6 +1,8 @@
 name: Hugo
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 env:
   # Use docker.io for Docker Hub if empty
