@@ -127,7 +127,7 @@ One of the worst parts of it was this specific file, called `XMaterial`, which w
 I wouldn't have minded if it was used well, or if they had actually imported the library through Maven or something, but no, they literally just copied the XMaterial class into the project.
 This file caused a lot of issues, since the owner of the server didn't know the names these used, and I tried to give him the file to look through, but it is around ~1.1k lines long and is still code, so he didn't really know where to look.
 
-## Duplicate Code
+### Duplicate Code
 
 This one wasn't nearly as bad as EnchantedPets, but it was more workable, since it was method bodies that were duplicated, not instead of pasted in the middle of a giant method with slight alterations.
 The main things I ended up removing were accessors for the config, which ended up being hundreds of lines of 1 line methods, with each one having similar 100-120 characters of code.
@@ -139,3 +139,24 @@ The main things I ended up removing were accessors for the config, which ended u
 This is a problem in a couple of the codebases I had to work with, but this one specifically had a horrid amount of it.
 I ended up reducing a good amount through refactoring, but there was still a lot of it.
 Most of my improvements ended up being in the EnchantedSkills plugin, since I had to work with that the most.
+
+
+## EnchantedDrops
+
+This one was neat, and was kinda complicated in getting things to work, since it needed the highest priority on block drops, and in order to change a drop in Minecraft (with Spigot), you need to cancel the event.
+This isn't that problematic for most things, but once you realize there's enchants like fortune that change the drops, and then the block events are no longer sent to other plugins that use them, it becomes a problem.
+
+My solution wasn't great, but since we work with mostly custom plugins it worked for us.
+What I ended up doing was adding a new event called, you guessed it, `EnchantedDropEvent`, which was called before the items were dropped, in case some other plugin wanted to change or cancel them.
+
+In the end, I had to use NMS (implementation details from Craftbukkit) to get the fortune count, because I'd rather leave it to their official math than try to copy it myself.
+
+The original task this was for, was so that we could change the drop for something like stone, just to call the drop `Enchanted Stone` instead.
+This, too, was configurable.
+
+## EnchantedElections
+
+One of the last ones I did, but also one of the most fun.
+This one was similar to what they do in Hypixel Skyblock, where players can vote for a mayor, and the mayor will give certain bonuses.
+Everything is configurable, including the mayor's perks, how their information is displayed, and how many certain ranks will get.
+
