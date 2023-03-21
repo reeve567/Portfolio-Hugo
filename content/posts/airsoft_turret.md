@@ -1,11 +1,11 @@
 +++
-title = "Airsoft_turret"
+title = "Airsoft Turret"
 date = "2021-01-01T00:00:00-05:00"
 author = "Reeve"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["engineering-project", "airsoft", "3d-printing"]
-keywords = ["airsoft", ""]
+keywords = ["airsoft"]
 description = "A turret for airsoft, made from 3D printed parts"
 showFullContent = false
 readingTime = true
