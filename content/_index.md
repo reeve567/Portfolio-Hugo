@@ -6,6 +6,8 @@ draft: false
 
 {{< rawhtml >}}
 
+<script async defer data-website-id="09ce020d-7de2-400b-a229-22826d863d55" src="https://analytics.reeve.dev/umami.js"></script>
+
 <style>
 .profilePhoto {
     float: left;
