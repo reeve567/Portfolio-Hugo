@@ -66,4 +66,12 @@ during most times of the day. I really enjoyed closely
 interacting with the community (<a href="https://www.youtube.com/watch?v=SYGJIKZB4ic">my favorite event</a>), and to this day some of the former players still message
 me occasionally to chat.
 </p>
+
+<h2>Where to find me</h2>
+<ul>
+<li><a href="https://github.com/reeve567">Github</a> - This is where you can find my public code and projects</li>
+<li><a href="https://www.linkedin.com/in/reeve-blake">LinkedIn</a> - My online resume</li>
+<li><a href="https://twitter.com/reeveblake">Twitter</a></li>
+<li>Discord - Xwy#7969</li>
+</ul>
 {{< /rawhtml >}}
