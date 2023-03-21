@@ -5,6 +5,7 @@ draft: false
 ---
 
 {{< rawhtml >}}
+
 <style>
 .profilePhoto {
     float: left;
@@ -27,45 +28,19 @@ and I have a passion for making things. Whether it’s: a
 utility program to sort my indie games found scattered
 across the internet, a bot that tracks my Skyblock coin
 balance, or making cool looking graphs in Minecraft, I am
-always teaching myself something new and learning more. A
-more recent project I have been working on is a turret that
-I am designing from scratch using Autodesk software, a 3D
-printer, some simple soldering, and C++.
+always teaching myself something new and learning more.
 </p>
-<p>
-    I started playing the online gaming platform, Roblox, 11
-years ago, at the start of 2010. This was when my love for
-sandbox games first began. Although I mainly just played
-other player’s games at the time, it was still tons of fun
-to load up other people’s models and scripts and mess around
-on occasion. During 2011, I stumbled across a few inspiring
-Minecraft building timelapse videos. The main channel I
-watched was FyreUK, and I was fascinated with the idea of
-being able to pick up anything and place it anywhere else.
-This, plus the fact that there was a generated landscape to
-build on changed everything for me. A video of a Dwarven
-city built on the side of a cliff convinced me to finally
-get the game, and that’s when I fell down the rabbit hole.
-Minecraft has been a game that I have always come back to.
-</p>
-<p>
-    I didn’t learn to code until later on, but that didn’t stop
-me from loving the freedom plugins allowed me to have on a
-Bukkit server. This led me to make a long line of servers
-which gradually got better over the course of 9 years, until
-it reached the point where I started to create all the
-plugins I needed by my own hand. My most successful server
-was one of the last ones I made, which was around 4 years
-ago. On
-<a href="https://www.youtube.com/watch?v=8CVdCgireY4">this</a>
-server, I shared ownership with two other friends, but I
-solely developed while they used their Youtube following to
-promote the server. For the duration that it lasted, we had
-an active player base of around 20 players concurrently
-during most times of the day. I really enjoyed closely
-interacting with the community (<a href="https://www.youtube.com/watch?v=SYGJIKZB4ic">my favorite event</a>), and to this day some of the former players still message
-me occasionally to chat.
-</p>
+
+<h2>Favorite Projects</h2>
+
+<ul>
+<li><a href="https://reeve.dev/posts/dungeon_crawler/">Dungeon Crawler</a> - This was one of my favorite projects to work on, and it spurred a little bit of obsession over mazes later on</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/notes-fabric">Notes Fabric</a> - This was a port of the Notes mod that I made, trying to imitate it almost exactly, since the original was only on Forge.
+It was a labor of love, but I ended up losing the source and never had the ambition to remake it.
+You can find out more about that <a href="https://reeve.dev/posts/notes/">here</a>.</li>
+<li><a href="https://github.com/reeve567/CustomEnchants">Custom Enchants</a> - Although it's quite old, (the original source was from over 6 years ago) this project was what made me realize that I really enjoy programming.
+It was a fun kind of puzzle that I didn't know all the answer to, but they were all within my reach. I read a really awesome book called Effective Java (2nd ed.) by Joshua Bloch that taught me a lot of different methods of doing things, and really taught me most of the Java I know.</li>
+</ul>
 
 <h2>Where to find me</h2>
 <ul>

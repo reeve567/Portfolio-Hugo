@@ -15,7 +15,7 @@ color = "" #color from the theme settings
 
 # DungeonCrawler
 
-DungeonCrawler was inspired by both Minecraft Dungeons and Skyblock Dungeons. At the time of development, neither had been released, so my friend and I took a swing at making our own dungeon game mode. By the time we got around to making the main features, it was mainly me working on it, but he occasionally added a little feature here or there.
+DungeonCrawler was inspired by both Minecraft Dungeons and Skyblock Dungeons. At the time of development, Hypixel had just released theirs (or hadn't yet, I can't remember), so my friend and I took a swing at making our own dungeon game mode. By the time we got around to making the main features, it was mainly me working on it, but he occasionally added a little feature here or there.
 
 The dungeon prefabs are based off of chunk size builds located off on the side of the map, and there can be as many ones as you'd like.
 
