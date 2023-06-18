@@ -10,7 +10,6 @@ description = "Indie Game Library is a Kotlin application to keep track of games
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "" #color from the theme settings
 +++
 
 # Indie Game Library

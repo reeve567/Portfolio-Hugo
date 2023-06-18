@@ -10,7 +10,6 @@ description = "A turret for airsoft, made from 3D printed parts"
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "" #color from the theme settings
 +++
 
 # Airsoft Turret

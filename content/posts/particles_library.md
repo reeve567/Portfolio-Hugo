@@ -10,7 +10,6 @@ description = "A library for creating shapes out of particles through a simple A
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "" #color from the theme settings
 +++
 
 # ParticlesLib

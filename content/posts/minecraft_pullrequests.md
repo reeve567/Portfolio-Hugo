@@ -10,7 +10,6 @@ description = "A plugin to allow players to create pull requests in-game with bu
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "" #color from the theme settings
 +++
 
 # WorldPullRequests

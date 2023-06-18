@@ -10,7 +10,6 @@ description = "A minecraft plugin that allows players to graph functions in game
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "" #color from the theme settings
 +++
 
 # Minecraft Graphing

@@ -10,7 +10,6 @@ description = "A Minecraft Dungeon Crawler"
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "" #color from the theme settings
 +++
 
 # DungeonCrawler
